@@ -113,7 +113,7 @@ fig.update_layout(
     template='plotly_white',
     font=dict(family="Arial, sans-serif", size=14, color="black", weight="bold"),
     yaxis_tickangle=0,
-    margin=dict(l=100, r=20, t=80, b=60),  # Margens ajustadas para gráfico maior
+    margin=dict(l=50, r=50, t=20, b=20),  # Margens ajustadas para gráfico maior
     plot_bgcolor='white',  # Fundo branco para o gráfico
     paper_bgcolor='white',  # Fundo branco para o papel
     showlegend=True,  # Mostrar legenda

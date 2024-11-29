@@ -89,7 +89,7 @@ fig.update_layout(
         tickangle=45,  # Girar os rótulos para melhor legibilidade
         showgrid=True,  # Mostrar grid no eixo X
     ),
-    margin=dict(l=50, r=50, t=50, b=50)  # Margens ajustadas
+    margin=dict(l=50, r=50, t=20, b=20)  # Margens ajustadas
 )
 
 # Exibindo o gráfico

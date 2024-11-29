@@ -127,8 +127,10 @@ fig.update_layout(
         showgrid=True,  # Mostrar grid no eixo Y
         gridcolor='lightgray',  # Cor mais clara para a grade
         gridwidth=0.5,  # Espessura da grade mais fina
+    ),legend=dict(
+        font=dict(size=14)  # Aumenta o tamanho da fonte da legenda
     ),
-    margin=dict(l=50, r=50, t=50, b=50)  # Margens reduzidas
+    margin=dict(l=50, r=50, t=20, b=50)  # Margens reduzidas
 )
 
 # Exibindo o gráfico

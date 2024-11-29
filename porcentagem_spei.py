@@ -114,7 +114,7 @@ fig.update_layout(
     template='plotly_white',
     font=dict(family="Arial, sans-serif", size=12, color="black", weight="bold"),
     yaxis_tickangle=0,
-    margin=dict(l=80, r=20, t=60, b=40),  # Margens ajustadas para gráfico menor
+    margin=dict(l=50, r=50, t=20, b=50),  # Margens ajustadas para gráfico menor
     plot_bgcolor='white',  # Fundo branco para o gráfico
     paper_bgcolor='white',  # Fundo branco para o papel
     showlegend=False,  # Remover a legenda
